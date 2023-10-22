@@ -1,17 +1,34 @@
 /*1. color general de la lletra negra*/
-#titol-pagina{
+p{
     color: black;
 }
 
 /*2. titol nivell 1 fons blanc lletra gris*/
-
+#titol-pagina{
+    color: grey;
+    background-color: white;
+}
 
 /*3. tots els strong en color verd i subratllats*/
-
+strong{
+    color: green!important;
+    text-decoration: underline;
+}
 
 /*4. enllaços del paràgraf2 en italica*/
-
+.paragraf2 a{
+    font-style: italic;
+}
 
 /*5. footer general del web centrat i lletra de 10px*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
 
 /*6. Canvia l'ordre de càrrega dels fitxers i mira què passa. Sabries modificar el teu codi per a que se seguís veient igual que abans de canviar l'ordre?*/
+/* a. Canvia el color de la etiqueta <strong> perque en el document estils_inicials.css hi ha un selector que indica que el color de lletra d'aquesta etiqueta
+es rosa, aixo passa perque al canviar l'ordre dels documents css el que te prioritat es l'ultim que el navegador llegeix y si hi ha alguna etiqueta que es
+repeteix li dona l'estil d'aquest*/
+/* b. Afegint la declaracio !important al color de la etiqueta <strong>*/
